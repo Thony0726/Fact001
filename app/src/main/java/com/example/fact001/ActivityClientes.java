@@ -12,11 +12,15 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 public class ActivityClientes extends AppCompatActivity {
+
+    RecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +29,12 @@ public class ActivityClientes extends AppCompatActivity {
         // Botton nav
         BottomNavigationView btnNav = findViewById(R.id.bottomNavigationViewClientes);
         btnNav.setOnNavigationItemSelectedListener(navListener);
+        /* ======= CONCATENACION DE LA INTERFAZ ======= */
+        recyclerView = (RecyclerView) findViewById(R.id.rvClientes);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        /* ======= CONCATENACION DE LA INTERFAZ ======= */
+
     }
 
     //Listener
