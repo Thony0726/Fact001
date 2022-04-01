@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1097801098020",
+    "project_id": "fact001-2ca61",
+    "storage_bucket": "fact001-2ca61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097801098020:android:b028f2f16be5c1b87349b1",
+        "android_client_info": {
+          "package_name": "com.example.fact001"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097801098020-gcd6fpcbhnle7ft6k3181vl754m0ht12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fact001",
+            "certificate_hash": "22ce44d753263e30a06799e6d516c413a7a83ba7"
+          }
+        },
+        {
+          "client_id": "1097801098020-2hjrjju2n57utf37oos25o9cso4gcrqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuuAVXTTa55mqHaRpC49pld8IrC53k0mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097801098020-2hjrjju2n57utf37oos25o9cso4gcrqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
