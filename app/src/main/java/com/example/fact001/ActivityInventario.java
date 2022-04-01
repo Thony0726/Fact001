@@ -87,6 +87,7 @@ public class ActivityInventario extends AppCompatActivity {
                     break;
                 case R.id.item4:
                     startActivity(new Intent(ActivityInventario.this, ActivityFacturacion.class));
+                    finish();
                     Toast.makeText(ActivityInventario.this, "facturacion", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.item5:

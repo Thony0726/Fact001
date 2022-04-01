@@ -15,13 +15,12 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:context=".ActivityAjustes">
 
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="CLIENTES"
+            android:text="AJUSTES"
             android:textColor="#FF7043"
             android:textSize="25dp"
             android:textStyle="bold"
@@ -41,4 +40,5 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/menu2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

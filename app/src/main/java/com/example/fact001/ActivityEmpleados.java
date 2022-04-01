@@ -86,6 +86,7 @@ public class ActivityEmpleados extends AppCompatActivity {
                     break;
                 case R.id.item4:
                     startActivity(new Intent(ActivityEmpleados.this, ActivityFacturacion.class));
+                    finish();
                     Toast.makeText(ActivityEmpleados.this, "facturacion", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.item5:
