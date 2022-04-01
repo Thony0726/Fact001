@@ -92,10 +92,11 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case R.id.item5:
 
-                    startActivity(new Intent(MainActivity.this, ActivityAjustes.class));
+                    startActivity(new Intent(MainActivity.this, ActivityMapa.class));
                     finish();
                     Toast.makeText(MainActivity.this, "ajustes", Toast.LENGTH_SHORT).show();
                     break;
+
             }
             return true;
         }
