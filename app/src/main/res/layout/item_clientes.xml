@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="6dp"
+    app:cardCornerRadius="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primarioVariante"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgClientes"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="@color/primarioVariante"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/tvCliNombres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/imgClientes"
+            android:text="RICHARD ANTHONY"
+            android:textColor="#FFE5D0"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCliApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@+id/tvCliNombres"
+            android:text="PEREZ PALACIOS"
+            android:textColor="#FFE5D0"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCliCedula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCliNombres"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/imgClientes"
+            android:text="1723382592"
+            android:textColor="@color/teal_200" />
+
+        <TextView
+            android:id="@+id/tvCliDireccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCliApellidos"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@+id/tvCliCedula"
+            android:text="QUITO - ECUADOR"
+            android:textColor="@color/teal_200" />
+
+        <TextView
+            android:id="@+id/tvCliCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCliCedula"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@+id/imgClientes"
+            android:text="richardanto0726@gmail.com"
+            android:textColor="@color/teal_200" />
+
+        <TextView
+            android:id="@+id/tvCliTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCliCorreo"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@+id/btnEditarCliente"
+            android:layout_toEndOf="@+id/imgClientes"
+            android:text="0980868422"
+            android:textColor="@color/teal_200" />
+
+        <ImageButton
+            android:id="@+id/btnEliminarCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCliCorreo"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/primarioVariante"
+            app:srcCompat="@drawable/ic_eliminar" />
+
+        <ImageButton
+            android:id="@+id/btnEditarCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCliCorreo"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@+id/btnEliminarCliente"
+            android:background="@color/primarioVariante"
+            app:srcCompat="@drawable/ic_editar" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

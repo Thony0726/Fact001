@@ -15,12 +15,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class ActivityClientes extends AppCompatActivity {
 
     RecyclerView recyclerView;
+    AdaptadorClientes adaptadorClientes;
+    DatabaseReference mDatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,9 +38,31 @@ public class ActivityClientes extends AppCompatActivity {
         recyclerView = (RecyclerView) findViewById(R.id.rvClientes);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        /* ======= CONCATENACION DE LA INTERFAZ ======= */
+        /* ======= FIREBASE ======= */
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+        FirebaseRecyclerOptions<ModeloCliente> options =
+                new FirebaseRecyclerOptions.Builder<ModeloCliente>()
+                .setQuery(FirebaseDatabase.getInstance().getReference().child("Clientes"),ModeloCliente.class )
+                .build();
+        adaptadorClientes = new AdaptadorClientes(options);
+        recyclerView.setAdapter(adaptadorClientes);
 
     }
+
+    /**/
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        adaptadorClientes.startListening();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        adaptadorClientes.stopListening();
+    }
+    /**/
 
     //Listener
     private BottomNavigationView.OnNavigationItemSelectedListener navListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
