@@ -18,6 +18,7 @@
         <entry key="..\:/Users/Anthony/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_inventario.xml" value="0.2" />
         <entry key="..\:/Users/Anthony/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/Anthony/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Anthony/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_mapa.xml" value="0.33" />
         <entry key="..\:/Users/Anthony/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_productos.xml" value="0.2" />
         <entry key="..\:/Users/Anthony/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_proveedores.xml" value="0.2" />
         <entry key="..\:/Users/Anthony/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_registro.xml" value="0.2" />
@@ -25,20 +26,6 @@
         <entry key="..\:/Users/Anthony/AndroidStudioProjects/Fact001/app/src/main/res/layout/item_clientes.xml" value="0.4050632911392405" />
         <entry key="..\:/Users/Anthony/AndroidStudioProjects/Fact001/app/src/main/res/layout/menu_parametros.xml" value="0.2" />
         <entry key="..\:/Users/Anthony/AndroidStudioProjects/Fact001/app/src/main/res/menu/menu2.xml" value="0.2" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_ajustes.xml" value="0.225" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_clientes.xml" value="0.225" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_empleados.xml" value="0.225" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_facturacion.xml" value="0.225" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_inventario.xml" value="0.225" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_login.xml" value="0.225" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_main.xml" value="0.225" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_mapa.xml" value="0.225" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_productos.xml" value="0.225" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_proveedores.xml" value="0.225" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_registro.xml" value="0.225" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/layout/activity_splash.xml" value="0.225" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/layout/menu_parametros.xml" value="0.225" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Fact001/app/src/main/res/menu/menu2.xml" value="0.225" />
       </map>
     </option>
   </component>
